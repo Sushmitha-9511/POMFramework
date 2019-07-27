@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POMFramework">
+<listeners>
+<listener class-name ="Analyzer.Transform"/>
+<listener class-name ="ExtentReport_Package.ExtentReporterNG" />
+</listeners>
+<test name="POM Framework">
+		<classes>
+			<class name="testcases.Login_Page_Test" />
+			<class name="testcases.Home_Page_Test" />
+		</classes>
+	</test>
+</suite>
